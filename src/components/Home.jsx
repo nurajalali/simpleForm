@@ -19,7 +19,7 @@ const Home = () => {
           </Column>
         </Grid>
         <Form setAllForm={setAllForm} allForm={allForm} />
-        <DataTable allForm={allForm} />
+        <DataTable allForm={allForm} setAllForm={setAllForm} />
       </Stack>
     </div>
   );
