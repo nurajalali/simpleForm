@@ -14,6 +14,7 @@ const DataTable = ({
   setIsOpen,
   setFormEditingId,
   setIsEdit,
+  setAllForm,
 }) => {
   const deleteRow = (id) => {
     const newAllForm = allForm.filter((form) => form.rowId !== id);
